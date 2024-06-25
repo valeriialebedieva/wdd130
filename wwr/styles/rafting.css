@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #000814;
+    --secondary-color: #ffc300;
+    --accent1-color: #ffc300;
+    --accent2-color: #ffd60a;
+    --heading-font: 'Poppins', serif;
+    --paragraph-font: 'Poppins', serif;
+    --nav-background-color: #ffd60a;
+    --nav-link-color: #001d3d;
+    --nav-hover-link-color: #001d3d;
+    --nav-hover-background-color: #ffc300;
+}
+
+body {
+font-family: var(--paragraph-font);
+padding: 20px;
+}
+
+h1, h2 {
+font-family: var(--heading-font);
+color: var(--primary-color);
+}
+
+
+header {
+padding: 20px;
+background-color: var(--accent1-color);
+}
+
+p {
+padding: 25px;
+}
+
+nav {
+background-color: var(--nav-background-color);
+font-size: 1.2rem;
+display: flex;
+}
+
+nav a {
+display: block;
+color: var(--nav-link-color);
+text-decoration: none;
+padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+color: var(--nav-link-color);
+}
+
+nav a:hover {
+color: var(--nav-hover-link-color);
+background-color: var(--nav-hover-background-color);
+}
+
+.img{
+float: right;
+}
+
+.hero div{
+position: relative;
+}
+
+.hero img {
+display: block;
+width: 100%;
+height: auto;
+}
