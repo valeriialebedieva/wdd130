@@ -31,6 +31,7 @@ background-color: var(--accent1-color);
 
 p {
 padding: 25px;
+margin: 50px;
 }
 
 nav {
@@ -55,16 +56,22 @@ color: var(--nav-hover-link-color);
 background-color: var(--nav-hover-background-color);
 }
 
-.img{
-float: right;
-}
-
 .hero div{
 position: relative;
 }
 
+.hero h1, article {
+position: absolute;
+padding: 25px;
+}
+
 .hero img {
 display: block;
-width: 100%;
+width: 200px;
 height: auto;
+}
+
+.img{
+float: right;
+width: 200px;
 }
