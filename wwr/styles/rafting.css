@@ -161,7 +161,7 @@ border-radius: 50%;
 }
 
 .history {
-width: 100%
+width: 100%;
 text-align: left;
 padding: 0px;
 margin: 0px;
@@ -181,7 +181,7 @@ max-width: 100%;
 .wrapper img {
 height: auto;
 max-height: 250px;
-border-radius: 1x;
+border-radius: 1px;
 }
 
 .container {
