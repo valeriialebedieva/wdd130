@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us | Rapid Rush Adventures</title>
+    <meta name="description" content="The rafting site plan includes contacts.">
+    <meta name="author" content="Valeriia Lebedieva">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="Rafting Site Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+<main>
+    <h1>Contact Us</h1>
+    <h2>Send Us a Message</h2>
+    <p class="paragraph">Rapid Rush Adventures</p>
+    <p class="paragraph">Phone: 999-999-9999</p>
+    <p class="paragraph">Email: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
+
+    <h2>Our Team</h2>
+    <div class="employee-profiles">
+        <figure class="employee">
+            <img src="images/employee1.jpeg" alt="Employee 1">
+            <figcaption>John Doe - Trip Leader</figcaption>
+        </figure>
+        <figure class="employee">
+            <img src="images/employee2.jpeg" alt="Employee 2">
+            <figcaption>Jane Smith - Reservation Manager</figcaption>
+        </figure>
+        <figure class="employee">
+            <img src="images/employee3.jpeg" alt="Employee 3">
+            <figcaption>Sam Lee - Marketing Specialist</figcaption>
+        </figure>
+    </div>
+
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <p class="paragraph">Purpose of Message:</p>
+        <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry" required>
+        <label for="general-inquiry">General Inquiry</label><br>
+        <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+        <label for="reservation-question">Reservation Question</label><br>
+        <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+        <label for="website-suggestion">Website Suggestion</label><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d104570.09521958228!2d-75.76237104545645!3d39.60271144971833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1720887040574!5m2!1sen!2sus"
+                width="400" height="300" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</main>
+<footer>
+    <div class="footer-content">
+        <p>©️2024 🌴 Rapid Rush Adventures 🌴 Valeriia Lebedieva 🌴</p>
+        <nav>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook"> </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter"> </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram"> </a>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
