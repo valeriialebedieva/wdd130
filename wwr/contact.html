@@ -49,7 +49,7 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <p class="paragraph">Purpose of Message:</p>
+        <p class="paragraph margin-top">Purpose of Message:</p>
         <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry" required>
         <label for="general-inquiry">General Inquiry</label><br>
         <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
@@ -60,8 +60,10 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
 
-        <input type="checkbox" id="newsletter" name="newsletter">
-        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+        <div class="newsletter-checkbox">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+        </div>
 
         <button type="submit">Submit</button>
     </form>

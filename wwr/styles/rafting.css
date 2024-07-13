@@ -237,20 +237,33 @@ margin-top: 20px;
 }
 
 label {
-margin-top: 10px;
+margin-top: 0px;
 font-weight: bold;
 }
 
 input[type="text"], input[type="email"], textarea {
 padding: 8px;
-margin-top: 5px;
-margin-bottom: 10px;
+margin: 0px;
 border: 1px solid #ccc;
 border-radius: 4px;
 }
 
 input[type="radio"], input[type="checkbox"] {
-margin-top: 10px;
+margin-top: 0px;
+}
+
+.newsletter-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-checkbox label {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.newsletter-checkbox input {
+    margin-left: 15px;
 }
 
 button {
@@ -271,4 +284,8 @@ background-color: var(--nav-hover-link-color);
 .paragraph {
 padding: 0px;
 margin: 0px;
+}
+
+.margin-top{
+margin-top: 15px;
 }
