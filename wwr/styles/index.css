@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #000814;
+    --secondary-color: #00509d;
+    --accent1-color: #ffc300;
+    --accent2-color: #ffd60a;
+    --heading-font: 'Poppins', serif;
+    --paragraph-font: 'Poppins', serif;
+    --nav-background-color: #ffd60a;
+    --nav-link-color: #001d3d;
+    --nav-hover-link-color: #001d3d;
+    --nav-hover-background-color: #ffc300;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.newsletter-signup {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--accent2-color);
+}
+
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-signup label {
+    font-weight: bold;
+}
+
+.newsletter-signup input[type="text"],
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter-signup button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.newsletter-signup button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.company-info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--accent1-color);
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    font-size: 0.7rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    gap: 10px;
+}
+
+footer nav a {
+    display: block;
+    width: 32px;
+    height: 30px;
+    background-color: var(--accent1-color);
+}
+
+footer nav img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

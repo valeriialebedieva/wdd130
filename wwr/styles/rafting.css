@@ -60,6 +60,11 @@ padding: 25px;
 margin: 50px;
 }
 
+nav p{
+padding: 0px;
+margin: 0px;
+}
+
 nav {
 background-color: var(--nav-background-color);
 font-size: 1.2rem;
@@ -131,7 +136,7 @@ align-items: center;
 }
 
 .footer-content p {
-font-size: 0.9rem;
+font-size: 0.7rem;
 margin: 0 auto;
 text-align: center;
 }
